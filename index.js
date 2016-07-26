@@ -8,5 +8,5 @@ server.get('/', function(response, request){
 });
 
 server.listen(port, function(){
-  CONSOLE.LOG('Now listening on port:', port)
+  console.log('Now listening on port:', port)
 });
